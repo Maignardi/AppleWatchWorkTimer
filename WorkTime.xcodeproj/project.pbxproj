@@ -1,0 +1,447 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		727FCFC42A219FFD001E35DC /* WorkTime Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 727FCFC32A219FFD001E35DC /* WorkTime Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		727FCFC92A219FFD001E35DC /* WorkTimeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 727FCFC82A219FFD001E35DC /* WorkTimeApp.swift */; };
+		727FCFCB2A219FFD001E35DC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 727FCFCA2A219FFD001E35DC /* ContentView.swift */; };
+		727FCFCD2A219FFF001E35DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 727FCFCC2A219FFF001E35DC /* Assets.xcassets */; };
+		727FCFD02A219FFF001E35DC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 727FCFCF2A219FFF001E35DC /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		727FCFC52A219FFD001E35DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 727FCFB72A219FFD001E35DC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 727FCFC22A219FFD001E35DC;
+			remoteInfo = "WorkTime Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		727FCFD62A219FFF001E35DC /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				727FCFC42A219FFD001E35DC /* WorkTime Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		727FCFBD2A219FFD001E35DC /* WorkTime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WorkTime.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		727FCFC32A219FFD001E35DC /* WorkTime Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WorkTime Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		727FCFC82A219FFD001E35DC /* WorkTimeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkTimeApp.swift; sourceTree = "<group>"; };
+		727FCFCA2A219FFD001E35DC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		727FCFCC2A219FFF001E35DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		727FCFCF2A219FFF001E35DC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		727FCFC02A219FFD001E35DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		727FCFB62A219FFD001E35DC = {
+			isa = PBXGroup;
+			children = (
+				727FCFC72A219FFD001E35DC /* WorkTime Watch App */,
+				727FCFBE2A219FFD001E35DC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		727FCFBE2A219FFD001E35DC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				727FCFBD2A219FFD001E35DC /* WorkTime.app */,
+				727FCFC32A219FFD001E35DC /* WorkTime Watch App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		727FCFC72A219FFD001E35DC /* WorkTime Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				727FCFC82A219FFD001E35DC /* WorkTimeApp.swift */,
+				727FCFCA2A219FFD001E35DC /* ContentView.swift */,
+				727FCFCC2A219FFF001E35DC /* Assets.xcassets */,
+				727FCFCE2A219FFF001E35DC /* Preview Content */,
+			);
+			path = "WorkTime Watch App";
+			sourceTree = "<group>";
+		};
+		727FCFCE2A219FFF001E35DC /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				727FCFCF2A219FFF001E35DC /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		727FCFBC2A219FFD001E35DC /* WorkTime */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 727FCFD72A219FFF001E35DC /* Build configuration list for PBXNativeTarget "WorkTime" */;
+			buildPhases = (
+				727FCFBB2A219FFD001E35DC /* Resources */,
+				727FCFD62A219FFF001E35DC /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				727FCFC62A219FFD001E35DC /* PBXTargetDependency */,
+			);
+			name = WorkTime;
+			productName = WorkTime;
+			productReference = 727FCFBD2A219FFD001E35DC /* WorkTime.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		727FCFC22A219FFD001E35DC /* WorkTime Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 727FCFD32A219FFF001E35DC /* Build configuration list for PBXNativeTarget "WorkTime Watch App" */;
+			buildPhases = (
+				727FCFBF2A219FFD001E35DC /* Sources */,
+				727FCFC02A219FFD001E35DC /* Frameworks */,
+				727FCFC12A219FFD001E35DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "WorkTime Watch App";
+			productName = "WorkTime Watch App";
+			productReference = 727FCFC32A219FFD001E35DC /* WorkTime Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		727FCFB72A219FFD001E35DC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					727FCFBC2A219FFD001E35DC = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					727FCFC22A219FFD001E35DC = {
+						CreatedOnToolsVersion = 14.1;
+					};
+				};
+			};
+			buildConfigurationList = 727FCFBA2A219FFD001E35DC /* Build configuration list for PBXProject "WorkTime" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 727FCFB62A219FFD001E35DC;
+			productRefGroup = 727FCFBE2A219FFD001E35DC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				727FCFBC2A219FFD001E35DC /* WorkTime */,
+				727FCFC22A219FFD001E35DC /* WorkTime Watch App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		727FCFBB2A219FFD001E35DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		727FCFC12A219FFD001E35DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				727FCFD02A219FFF001E35DC /* Preview Assets.xcassets in Resources */,
+				727FCFCD2A219FFF001E35DC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		727FCFBF2A219FFD001E35DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				727FCFCB2A219FFD001E35DC /* ContentView.swift in Sources */,
+				727FCFC92A219FFD001E35DC /* WorkTimeApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		727FCFC62A219FFD001E35DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 727FCFC22A219FFD001E35DC /* WorkTime Watch App */;
+			targetProxy = 727FCFC52A219FFD001E35DC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		727FCFD12A219FFF001E35DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		727FCFD22A219FFF001E35DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		727FCFD42A219FFF001E35DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WorkTime Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 948XX5VT3Y;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = WorkTime;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "matheus-maignardi.WorkTime.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Debug;
+		};
+		727FCFD52A219FFF001E35DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WorkTime Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 948XX5VT3Y;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = WorkTime;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "matheus-maignardi.WorkTime.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Release;
+		};
+		727FCFD82A219FFF001E35DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 948XX5VT3Y;
+				INFOPLIST_KEY_CFBundleDisplayName = WorkTime;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "matheus-maignardi.WorkTime";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		727FCFD92A219FFF001E35DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 948XX5VT3Y;
+				INFOPLIST_KEY_CFBundleDisplayName = WorkTime;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "matheus-maignardi.WorkTime";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		727FCFBA2A219FFD001E35DC /* Build configuration list for PBXProject "WorkTime" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				727FCFD12A219FFF001E35DC /* Debug */,
+				727FCFD22A219FFF001E35DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		727FCFD32A219FFF001E35DC /* Build configuration list for PBXNativeTarget "WorkTime Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				727FCFD42A219FFF001E35DC /* Debug */,
+				727FCFD52A219FFF001E35DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		727FCFD72A219FFF001E35DC /* Build configuration list for PBXNativeTarget "WorkTime" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				727FCFD82A219FFF001E35DC /* Debug */,
+				727FCFD92A219FFF001E35DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 727FCFB72A219FFD001E35DC /* Project object */;
+}
